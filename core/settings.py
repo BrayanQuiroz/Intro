@@ -7,7 +7,7 @@ environ.Env.read_env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = '6d6)fb+-k!-8_$*b528$jhovdh)6b!swv)ope!(ly&ckvqk_e'
 
 
 DEBUG = os.environ.get('DEBUG')
@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core', 
+    'blog',
 ]
 
 MIDDLEWARE = [
