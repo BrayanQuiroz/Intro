@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '6d6)fb+-k!-8_$*b528$jhovdh)6b!swv)ope!(ly&ckvqk_e'
 
 
-DEBUG = os.environ.get('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
